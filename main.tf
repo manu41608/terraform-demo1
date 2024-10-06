@@ -1,5 +1,5 @@
 module "my-vm" {
-  source        = "../tfe-demo/"
+  source        = "./modules/tfe-demo"
   vmname        = "demovm3"
   rgname        = "dummyrgg"
   vnetname      = "myvnet"
